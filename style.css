@@ -1,0 +1,651 @@
+body{
+    background-image: url(./imges/wadi-rum-desert-3840x2160-16543.jpg);
+    background-attachment: fixed;
+    height: 915px;
+    text-align: center;
+    font-family: 'Julius Sans One';
+}
+
+.header--logo-and-nav{
+    /*background: linear-gradient(#ffffff20, #ffffff23) padding-box, linear-gradient(45deg, #ffffff31, #cccccc31) border-box; border: 2px solid transparent; border-radius: 50px;*/
+    background-color: rgb(255, 255, 255, 0.2);
+    border: 2px solid rgb(255, 255, 255, 0.25);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
+    border-radius: 50px;
+    min-width: 5px;
+    max-width: 1566px;
+    margin: auto;
+    backdrop-filter: blur(40px);
+    margin-top: 20px;
+
+}
+
+.header--nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+
+.header--logo{
+    letter-spacing: 26px;
+    font-size: 38px;
+    margin: 12px 0px 12px 46px;
+    color: white;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
+}
+
+.nav{
+    color: white;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.nav-btn{
+    width: 8em;
+    border-radius: 50px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
+    color: white;
+    background-color: rgb(255, 255, 255, 0.1);
+    border: 2px solid rgb(255, 255, 255, 0.25);
+    margin: 10px 10px 10px 0px;
+    font-family: 'Julius Sans One';
+    font-size: 20px;
+    letter-spacing: 3px;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
+    height: 47px;
+}
+
+.main--main{
+    background-color: rgb(255, 255, 255, 0.3);
+    border: 2px solid rgb(255, 255, 255, 0.30);
+    justify-content: space-between;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
+    border-radius: 50px;
+    min-width: 5px;
+    max-width: 1632px;
+    margin: auto;
+    backdrop-filter: blur(40px);
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.main--logo{
+    font-size: 180px;
+    letter-spacing: 53px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
+    color: #313131;
+    margin: 35px 0px 6px 0px;
+}
+
+.main--logo-conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.logo-decoration{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 25px 0px 25px;
+}
+
+.logo-decoration-line{
+    background-color: #313131;
+    height: 7px;
+    width: 670px;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
+}
+
+.logo-decoration-plus{
+    height: 45px;
+    width: 45px;
+    background-image: url(./imges/Union1.svg);
+    -webkit-filter: drop-shadow( 4px 4px 4px rgba(0, 0, 0, .37));
+    filter: drop-shadow( 4px 4px 4px rgba(0, 0, 0, .37));
+    margin: 0px 47px 0px 47px;
+}
+
+.main--under-logo{
+    font-size: 22px;
+    letter-spacing: 31px;
+    margin-top: 21px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
+    color: #313131;
+}
+
+.main--news{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255, 0.2);
+    border: 2px solid rgb(255, 255, 255, 0.30);
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
+    border-radius: 65px;
+    padding: 59px 59px 59px 59px;
+    margin: 95px 95px 95px 95px;
+}
+
+.news-img{
+    object-fit: cover;
+    min-width: 608px;
+    height: 626px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
+    margin-right: 62px;
+}
+
+.news-inf{
+    text-align: start;
+
+}
+
+.news-text{
+    font-size: 50px;
+    letter-spacing: 30px;
+    text-align: start;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+    color: #313131;
+    margin-top: 15px;
+}
+
+.main-btn{
+    width: 449px;
+    border-radius: 50px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+    color: white;
+    background-color: rgb(255, 255, 255, 0.1);
+    border: 2px solid rgb(255, 255, 255, 0.25);
+    margin-top: -10px;
+    font-family: 'Julius Sans One';
+    font-size: 30px;
+    letter-spacing: 11px;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+    height: 70px;
+}
+
+.title-back{
+    background-color: rgb(255, 255, 255, 0.2);
+    border: 2px solid rgb(255, 255, 255, 0.25);
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
+    text-align: center;
+    border-radius: 50px;
+    min-width: 5px;
+    max-width: 1566px;
+    margin: auto;
+    backdrop-filter: blur(40px);
+    margin-top: 80px;
+}
+
+.text-title{
+    color: white;
+    letter-spacing: 122%;
+    font-size: 50px;
+    margin: 15px 0px 15px 0px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+}
+
+.categories--main{
+    display: flex;
+    width: 100%;
+    height: min-content;
+    justify-content: space-between;
+    margin-top: 53px;
+}
+
+.categories--main-left{
+    display: flex;
+    width: 50%;
+    padding-left: 48px;
+    padding-right: 24px;
+    padding-bottom: auto;
+    justify-content: space-between;
+}
+
+.categories--main-right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 24px;
+    padding-right: 48px;
+    padding-bottom: auto;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#c-i-1{
+    grid-area: kids;
+    background-image: url(./imges/\ -5.jpg);
+    background-size: 143%;
+    background-position-x: center;
+    background-position-y: center;
+    width: 354px;
+    height: 864px;
+    margin-right: 48px;
+
+}
+
+#c-i-2{
+    grid-area: adlt;
+    background-image: url(./imges/THE\ NORTH\ FACE\ PURPLE\ LABEL\ Unveils\ Cold-Weather\ Offerings\ for\ FW18.jpg);
+    background-position-x: center;
+    background-position-y:  center;
+    background-size: 164%;
+    width: 354px;
+    height: 864px;
+}
+
+#c-i-3{
+    grid-area: acs;
+    background-image: url(./imges/\ -6.jpg);
+    background-position-x: center;
+    background-position-y:  -210px;
+    background-size: cover;
+    width: 764px;
+    height: 299px;
+}
+
+#c-i-4{
+    grid-area: sho;
+    background-image: url(./imges/IMG_0597\ 1.png);
+    background-position-x: center;
+    background-size: 125%;
+    background-position-y: -265px;
+    width: 764px;
+    height: 299px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+#c-i-5{
+    grid-area: aa;
+    background: rgb(72,72,41);
+    background: linear-gradient(90deg, rgba(72,72,41,1) 0%, rgba(221,166,58,1) 50%, rgba(219,75,43,1) 100%);
+    background-size: 105%;
+    background-position-x: center;
+    min-width: 764px;
+    min-height: 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories--iteam{
+    border-radius: 70px;
+    background: white;
+    border: 2px solid rgb(255, 255, 255, 0.25);
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.categories--iteam-preview{
+    border-radius: 0px 0px 70px 70px;
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgb(255, 255, 255, 0.25);
+    width: 100%;
+    padding: 10px 0px 30px 0px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(2px);
+}
+
+.categories--iteam-preview-2{
+    border-radius: 0px 0px 70px 70px;
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgb(255, 255, 255, 0.25);
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(2px);
+}
+
+.categories--iteam-name{
+    font-size: 40px;
+    letter-spacing: 55%;
+    margin-top: 10px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
+    color: #313131;
+    padding: 0px 0px 0px 15px;
+}
+
+.categories--iteam-name-2{
+    font-size: 40px;
+    letter-spacing: 55%;
+
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
+    color: #313131;
+
+}
+
+.categories--iteam-btn{
+    width: 297px;
+    border-radius: 50px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+    color: white;
+    background-color: rgb(255, 255, 255, 0.1);
+    border: 2px solid rgb(255, 255, 255, 0.25);
+    font-family: 'Julius Sans One';
+    font-size: 30px;
+    letter-spacing: 11px;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+    height: 63px;
+}
+
+.categories--iteam-btn-3{
+    width: 95%;
+    border-radius: 60px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+    color: white;
+    background-color: rgb(255, 255, 255, 0.1);
+    border: 2px solid rgb(255, 255, 255, 0.25);
+    font-family: 'Julius Sans One';
+    font-size: 30px;
+    letter-spacing: 11px;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+    height: 75%;
+}
+
+.categories--iteam-btn-2{
+    width: 56px;
+    border-radius: 50px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+    color: white;
+    background-color: rgb(255, 255, 255, 0.1);
+    border: 2px solid rgb(255, 255, 255, 0.25);
+    font-family: 'Julius Sans One';
+    font-size: 30px;
+    letter-spacing: 11px;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-i-img{
+    -webkit-filter: drop-shadow( 4px 4px 4px rgba(0, 0, 0, .37));
+    filter: drop-shadow( 4px 4px 4px rgba(0, 0, 0, .37));
+}
+
+.carousel-iteam{
+    width: 792px;
+    height: 411px;
+    background-color: rgba(255, 255, 255, 0.312);
+    border: 2px solid rgb(255, 255, 255, 0.25);
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 21.30px;
+    padding-right: 21.30px;
+    box-shadow: 4px 0px 4px rgb(0, 0, 0, 0.37);
+    backdrop-filter: blur(40px);
+}
+
+.carousel-iteam-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.owl-carousel{
+    margin-top: 38px;
+}
+
+.collections--main{
+    margin-top: 50px;
+}
+
+.carousel-iteam-img{
+    min-width: 504px;
+    height: 369px;
+    border-radius: 55px;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+    border: 2px solid rgb(255, 255, 255, 0.25);
+}
+
+.carousel-iteam-name{
+    font-size: 50px;
+    letter-spacing: 50%;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+    color: #313131;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.carousel-iteam-posname{
+    font-size: 20px;
+    letter-spacing: 60%;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+    color: #313131;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#carousel-i-img-1{
+    background: url(./imges/\ -3.jpg);
+    background-size: 105%;
+    background-position-y: -80px;
+}
+
+#carousel-i-img-2{
+    background: url(./imges/MEN\ |\ Uniqlo\ U\ （ユニクロユー）\ 2023年秋冬コレクション｜UNIQLO.jpg);
+    background-size: 105%;
+    background-position-y: -190px;
+}
+
+#carousel-i-img-3{
+    background: url(./imges/\ -4.jpg);
+    background-size: 105%;
+    background-position-y: -280px;
+}
+
+#carousel-i-img-4{
+    background: url(./imges/Undercover.jpg);
+    background-size: 105%;
+    background-position-y: -250px;
+}
+
+#carousel-i-img-5{
+    background: url(./imges/IMG_0598.JPG);
+    background-size: 106%;
+    background-position-y: -250px;
+}
+
+#carousel-i-img-6{
+    background: url(./imges/IMG_0599.JPG);
+    background-size: 106%;
+    background-position-y: -230px;
+}
+
+#carousel-i-img-7{
+    background: url(./imges/IMG_0601.JPG);
+    background-size: 105%;
+    background-position-y: -190px;
+}
+
+#carousel-i-img-8{
+    background: url(./imges/IMG_0602.JPG);
+    background-size: 105%;
+    background-position-y: -190px;
+}
+
+.carousel-iteam-btn{
+    width: 211.32px;
+    border-radius: 50px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+    color: white;
+    background-color: rgb(255, 255, 255, 0.1);
+    border: 2px solid rgb(255, 255, 255, 0.25);
+    font-family: 'Julius Sans One';
+    font-size: 30px;
+    letter-spacing: 11px;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopping-cart--main-back{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 53px;
+}
+
+.shopping-cart--main{
+    min-width: 5px;
+    max-width: 1888632px;
+    max-height: 491px;
+    border: 2px solid rgb(255, 255, 255, 0.30);
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+    background: radial-gradient(circle, rgba(204, 204, 204, 0.253) 2%, rgba(255, 255, 255, 0.491) 98%);
+    backdrop-filter: blur(40px);
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+
+.sing-out-of-acc-shopping-cart{
+    font-size: 65px;
+    color: white;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+    text-align: center;
+    letter-spacing: 53%;
+    margin-left: 205px;
+    margin-right: 205px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+
+.footer--main{
+    background-color: rgb(255, 255, 255, 0.2);
+    border: 2px solid rgb(255, 255, 255, 0.25);
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
+    text-align: center;
+    border-radius: 50px;
+    min-width: 5px;
+    max-width: 1566px;
+    margin: auto;
+    backdrop-filter: blur(40px);
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.footer--main-top-part{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 93px;
+    padding-right: 93px;
+    padding-top: 10px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.footer--main-white-line{
+    height: 2px;
+    background-color: white;
+    width: 95%;
+    text-align: center;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
+}
+
+.footer--main-decoration{
+    display: flex;
+    justify-content: center;
+}
+
+.footer--main-bottom-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 45px;
+    padding-right: 50px;
+}
+
+.footer--main-telephone{
+    font-size: 50px;
+    color: white;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+    text-align: left;
+    letter-spacing: 50%;
+}
+
+.footer--main-links-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer--main-links-lable{
+    font-size: 25px;
+    color: white;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+    text-align: center;
+    letter-spacing: 120%
+}
+
+.footer--main-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 110%;
+    margin-bottom: 25px;
+}
+
+.link-iteam{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255, 0.2);
+    border: 2px solid rgb(255, 255, 255, 0.25);
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "julius sans one";
+    src: url("./fonts/JuliusSansOne-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    height: max-content;
+  }
