@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/owl.carousel.min.css">
         <link rel="stylesheet" href="./css/owl.theme.default.min.css">
         <link rel="stylesheet" href="./style.css">
@@ -12,11 +13,11 @@
                     <p class="header--logo">zürich</p>
                 </div>
                 <div class="header--nav">
-                    <a href="/" class="nav">categories</a>
+                    <a href="./cotigories.html" class="nav">categories</a>
                     <p class="nav">|</p>
                     <a href="/" class="nav">collections</a>
                     <p class="nav">|</p>
-                    <a href="/" class="nav">shopping cart</a>
+                    <a href="/" id="cartt" class="nav">shopping cart</a>
                     <p class="nav">|</p>
                     <a href="/" class="nav">contacts</a>
                     <button class="nav-btn">sing in</button>
@@ -44,7 +45,7 @@
             </div>
         </main>
         <section class="categories">
-            <div class="title-back"><p class="text-title">categories</p></div>
+            <div class="title-back"><p id="categories" class="text-title">categories</p></div>
             <div class="categories--main">
                 <div class="categories--main-left">
                     <div id="c-i-1" class="categories--iteam">
@@ -153,11 +154,30 @@
             </div>
         </section>
         <section class="shopping-cart">
-            <div class="title-back"><p class="text-title">shopping cart</p></div>
-            <div class="shopping-cart--main-back">
-                <div class="shopping-cart--main">
+            <div class="title-back shopping-cart-title">
+                <p class="text-title">shopping cart</p>
+                <button id="open-cart" class="categories--iteam-btn-2"><img class="c-i-img" style="width: 40px;height: 40px;" src="./imges/angle-small-down.svg"></button>
+                <button style="margin-left: 20px;" id="close-cart" class="categories--iteam-btn-2"><img class="c-i-img" style="width: 40px;height: 40px;" src="./imges/angle-small-up.svg"></button>
+            </div>
+            <div class="shopping-cart--main-back visually-hidden">
+                <div class="shopping-cart--main-error">
                     <p class="sing-out-of-acc-shopping-cart">sing in to view<br>the shopping cart</p>
-                    <button class="categories--iteam-btn">sing in</button>
+                    <button class="categories--iteam-btn shopping-cart-btn">sing in</button>
+                </div>
+                <div class="shopping-cart--main">
+                    <div class="shopping-cart-iteam">
+                        <div class="shopping-cart-iteam-radio-btn">
+                            <input type="checkbox" id="huey" name="drone" value="on" checked="true">
+                        </div>
+                        <div class="shopping-cart-iteam-img"></div>
+                        <p class="shopping-cart--iteam-name">xxx</p>
+                        <p class="shopping-cart--iteam-price">$$$</p>
+                        <div class="shopping-cart-iteam-Quantity">
+                            <button class="shopping-cart-iteam-Quantity less"><img class="c-i-img" style="width: 40px;height: 40px;" src="./imges/angle-small-left.svg"></button>
+                            <div class="shopping-cart-iteam-Quantity-count"><p>x</p></div>
+                            <button class="shopping-cart-iteam-Quantity more"><img class="c-i-img" style="width: 40px;height: 40px;" src="./imges/angle-small-right.svg"></button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -173,18 +193,20 @@
                     <div class="footer--main-links-Container">
                         <p class="footer--main-links-lable">follow us!</p>
                         <div class="footer--main-links">
-                            <div class="link-iteam"><img class="c-i-img"  style="width: 80px;height: 80px;" src="./imges/tiktok-outline-svgrepo-com.svg"></div>
-                            <div class="link-iteam"><img class="c-i-img" style="width: 80px;height: 80px;" src="./imges/twitter-outline-svgrepo-com.svg"></div>
-                            <div class="link-iteam"><img class="c-i-img" style="width: 80px;height: 80px;" src="./imges/pinterest-outline-svgrepo-com.svg"></div>
-                            <div class="link-iteam"><img class="c-i-img" style="width: 80px;height: 80px;" src="./imges/instagram-outline-svgrepo-com.svg"></div>
+                            <div class="link-iteam"><img class="c-i-img link-img" src="./imges/tiktok-outline-svgrepo-com.svg"></div>
+                            <div class="link-iteam"><img class="c-i-img link-img" src="./imges/twitter-outline-svgrepo-com.svg"></div>
+                            <div class="link-iteam"><img class="c-i-img link-img" src="./imges/pinterest-outline-svgrepo-com.svg"></div>
+                            <div class="link-iteam"><img class="c-i-img link-img" src="./imges/instagram-outline-svgrepo-com.svg"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
+        <div></div>
         <div style="height: 60px;"></div>
         <script src="./js/jquery.js"></script>
         <script src="./js/owl.carousel.min.js"></script>
         <script src="./js/iiii.js"></script>
+        <script src="./js/script.js"></script>
     </body>
 </html>
