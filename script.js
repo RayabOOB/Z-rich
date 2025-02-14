@@ -51,7 +51,7 @@ let init_catalog = (products) => {
 let add_to_cart = ()=>{ document.querySelectorAll(".shopping-cart-btn").forEach((x)=>{
     x.addEventListener("click", function(){
         let product_id = +this.dataset.id
-        let product_in_cart = products_in_cart.find((product)=>product.product_id == product_id)
+        let product_in_cart = products_in_cart.find(p=>p.product_id === product_id)
         if(!product_in_cart){
             products_in_cart.push({
                 product_id: product_id, count: 1
