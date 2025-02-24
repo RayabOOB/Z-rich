@@ -292,6 +292,10 @@ body{
     justify-content: flex-start;
 }
 
+.categories--iteam :hover{
+    perspective : 100px;
+}
+
 .categories--iteam-preview{
     border-radius: 0px 0px 70px 70px;
     background: rgba(255, 255, 255, 0.35);
@@ -320,6 +324,11 @@ body{
     justify-content: center;
     align-items: center;
     transform: translateY(2px);
+}
+
+.categories--iteam-preview-2 :hover{
+    transform: rotateZ(45deg);
+    transform: scale(1.5);
 }
 
 .categories--iteam-name{
@@ -367,6 +376,7 @@ body{
     box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
     height: 75%;
 }
+
 
 .categories--iteam-btn-2{
     width: 56px;
@@ -558,6 +568,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: start;
+    
 }
 
 .shopping-cart-iteam{
@@ -571,6 +582,58 @@ body{
     align-items: center;
     box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
     margin: 0px;
+    padding: 20px;
+}
+
+.shopping-cart-iteam-img{
+    width: 190px;
+    height: 190px;
+    border: 2px solid rgb(255, 255, 255, 0.25);
+    border-radius: 40px;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
+    margin-left: 15px;
+}
+
+.shopping-cart--iteam-name{
+    font-size: 40px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+    letter-spacing: 50%;
+}
+
+.shopping-cart--iteam-price{
+    font-size: 30px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.25);
+    letter-spacing: 50%;
+}
+
+.shopping-cart-iteam-Quantity{
+    display: flex;
+}
+
+.shopping-cart-iteam-Quantity-btn{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255, 0.25);
+    border-radius: 40px;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+.shopping-cart-iteam-Quantity-count{
+    width: 90px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255, 0.25);
+    border-radius: 40px;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.37);
+    background-color: rgb(255, 255, 255, 0.2);
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .shopping-cart-title{
@@ -741,6 +804,16 @@ body{
 	outline: 0;
 	padding: 50px;
 }
+
+.anim-for-btn{
+    transform: scale(1);
+}
+
+.anim-for-btn :hover{
+    transform: scale(1.5);
+}
+
+
 
 
 
